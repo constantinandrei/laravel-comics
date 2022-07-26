@@ -14,3 +14,24 @@ nav img {
   width: 80px !important;
 }
 
+#jumbotron {
+  height: 400px;
+  background-image: url("/img/jumbotron.jpg");
+}
+
+#jumbotron .current-series {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transform: translateY(50%);
+  background-color: #3182F9;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#jumbotron .container {
+  height: 100%;
+  position: relative;
+}
+
