@@ -1,1 +1,15 @@
 //
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap');
+:root {--bs-body-font-family: 'Asap Condensed', sans-serif;}
+
+nav {
+    a {
+        font-size: .9rem!important;
+        color: black!important;
+        font-weight: bold;
+    }
+    
+    img {
+        width: 80px!important;
+    }
+}
