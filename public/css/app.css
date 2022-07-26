@@ -35,3 +35,21 @@ nav img {
   position: relative;
 }
 
+.text-white {
+  background-color: #1C1C1C;
+}
+
+.load-more {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  background-color: #3182F9;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.my-card .img-container {
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+

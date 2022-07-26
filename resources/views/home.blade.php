@@ -2,14 +2,14 @@
 
 @section('page_title', 'DC Comics | Home')
 
-@section('navbar')
-
-    @include('partials.navbar')
-
-@endsection
-
 @section('jumbo')
 
     @include('partials.header')
+
+@endsection
+
+@section('page_content')
+
+    @include('partials.content')
 
 @endsection

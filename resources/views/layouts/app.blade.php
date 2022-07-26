@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    @yield('navbar')
+    @include('partials.navbar')
     @yield('jumbo')
+    @yield('page_content')
 </body>
 </html>
