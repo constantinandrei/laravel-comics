@@ -11,5 +11,6 @@
 @section('page_content')
 
     @include('partials.content')
+    @include('partials.bluebanner')
 
 @endsection

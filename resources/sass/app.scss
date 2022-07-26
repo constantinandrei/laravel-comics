@@ -14,6 +14,72 @@ nav {
     }
 }
 
+footer {
+    h4 {
+        font-size: 1rem;
+    }
+    
+    .section {
+        background-image: url('/img/footer-bg.jpg');
+        color: white;
+    }
+    
+    .list-group {
+    
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            font-size: .8rem;
+            padding: 0.3rem 0;
+        }
+        
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.476);
+    }
+    
+    .position-absolute {
+        top: -10%;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        height: 120%;
+        overflow: hidden;
+    
+        img {
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+
+    #signup {
+
+        h3 {
+            color: rgb(60, 60, 218);
+            font-size: 1.2rem;
+        }
+        .section-signup {
+            background-color: #303030!important;
+        }
+        
+        .my-btn {
+            color: white;
+            border: 2px solid rgb(60, 60, 218);
+            cursor: pointer;
+            display: inline-block;
+            padding: .5rem 1rem;
+        }
+        
+        .my-col {
+            flex-basis: 20px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
 #jumbotron {
     height: 400px;
     background-image: url('/img/jumbotron.jpg');
@@ -52,5 +118,21 @@ nav {
     .img-container {
         aspect-ratio: 1 / 1;
         overflow: hidden;
+    }
+}
+
+#bluebanner {
+    .section {
+        background-color: #3182F9;
+        color: white;
+        font-size: .9rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .my-col-1 {
+        flex-basis: 45px;
     }
 }

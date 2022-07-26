@@ -12,5 +12,9 @@
     @include('partials.navbar')
     @yield('jumbo')
     @yield('page_content')
+    <footer>
+        @include('partials.footer')
+        @include('partials.singupbanner')
+    </footer>
 </body>
 </html>
