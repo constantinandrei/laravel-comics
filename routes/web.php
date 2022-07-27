@@ -18,3 +18,21 @@ Route::get('/', function () {
 
     return view('home', compact('comics'));
 });
+
+Route::get('/comic/{id}', function ($id){
+    $comics = config('comics');
+
+    $comic = null;
+
+    foreach ($comics as $element){
+        if($element['id'] === (int)$id){
+            $comic = $element;
+        }
+    }
+
+    if (is_null($comic)){
+        abort('404');
+    }
+
+    return view('comicdetail', ['comic' => $comic]);
+});
