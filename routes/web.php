@@ -35,4 +35,4 @@ Route::get('/comic/{id}', function ($id){
     }
 
     return view('comicdetail', ['comic' => $comic]);
-});
+})->name('comicdetail');
