@@ -4,13 +4,14 @@
 
 @section('page_content')
     <div id="comic-detail"  class="section">
+        @include('partials.detailjumbo')
         <div class="container">
             
             <div class="py-5">
                 <div class="row">
                     <div class="col col-8">
-                        <h4 class="text-uppercase">{{ $comic['title'] }}</h4>
-                        <div class="bg-success">
+                        <h4 class="text-uppercase fs-2 mb-3">{{ $comic['title'] }}</h4>
+                        <div class="bg-success mb-3">
                             <div class="row">
                                 <div class="col col-8">
                                     <div class="p-3">
@@ -29,6 +30,9 @@
                                 </div>
                             </div>
                         </div>
+                        <p class="text-muted">
+                            {{ $comic['description'] }}
+                        </p>
                     </div>
                     <div class="col col-4">
                         <div class="text-end">
@@ -39,6 +43,14 @@
                 </div>
             </div>
             
+        </div>
+        <div class="gray-section">
+            <div class="container">
+                <div class="py-3">
+                    hola
+                </div>
+                <div class="py-5"></div>
+            </div>
         </div>
     </div>
     
