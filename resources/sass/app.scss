@@ -161,6 +161,10 @@ footer {
         background-color: #F6F6F6;
         border-top: 1px solid lightgray;
         border-bottom: 1px solid lightgray;
+
+        .border-top {
+            border-top: 1px solid lightgray;
+        }
     }
 
     .jumbo-div {

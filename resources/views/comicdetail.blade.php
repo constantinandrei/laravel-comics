@@ -47,7 +47,71 @@
         <div class="gray-section">
             <div class="container">
                 <div class="py-3">
-                    hola
+                    <div class="row row-cols-2 gx-5">
+                        <div class="col">
+                            <h4 class="mb-4">Talent</h4>
+                            <div class="border-top my-2"></div>
+                            <div class="row">
+                                <div class="col col-4">
+                                    Art by:
+                                </div>
+                                <div class="col col-8">
+                                    @foreach ($comic['artists'] as $link)
+                                        <a href="#">{{ $link }}</a>
+                                        @if (!$loop->last)
+                                            , 
+                                        @endif
+                                    @endforeach
+                                </div>
+                            </div>
+                            <div class="border-top my-2"></div>
+                            <div class="row">
+                                <div class="col col-4">
+                                    Written by:
+                                </div>
+                                <div class="col col-8">
+                                    @foreach ($comic['writers'] as $link)
+                                        <a href="#">{{ $link }}</a>
+                                        @if (!$loop->last)
+                                            , 
+                                        @endif
+                                    @endforeach
+                                </div>
+                            </div>
+                            <div class="border-top my-2"></div>
+                        </div>
+                        <div class="col">
+                            <h4 class="mb-4">Specs</h4>
+                            <div class="border-top my-2"></div>
+                            <div class="row">
+                                <div class="col col-4">
+                                    Series:
+                                </div>
+                                <div class="col col-8">
+                                    <a class="text-uppercase" href="#">{{ $comic['series'] }}</a>
+                                </div>
+                            </div>
+                            <div class="border-top my-2"></div>
+                            <div class="row">
+                                <div class="col col-4">
+                                    U.S. Price:
+                                </div>
+                                <div class="col col-8">
+                                    {{ $comic['price'] }}
+                                </div>
+                            </div>
+                            <div class="border-top my-2"></div>
+                            <div class="row">
+                                <div class="col col-4">
+                                    On Sale Date:
+                                </div>
+                                <div class="col col-8">
+                                    {{ $comic['sale_date'] }}
+                                </div>
+                            </div>
+                            <div class="border-top my-2"></div>
+                        </div>
+                    </div>
                 </div>
                 <div class="py-5"></div>
             </div>
