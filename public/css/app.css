@@ -123,3 +123,20 @@ footer #signup .my-col {
   flex-basis: 45px;
 }
 
+#bluebanner.graybanner .section {
+  background-color: #F6F6F6;
+  color: #c7b9b9;
+}
+
+#bluebanner.graybanner img {
+  filter: invert(0.7);
+}
+
+#comic-detail h4 {
+  color: darkblue;
+}
+
+#comic-detail .container {
+  max-width: 992px;
+}
+

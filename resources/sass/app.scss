@@ -135,4 +135,25 @@ footer {
     .my-col-1 {
         flex-basis: 45px;
     }
+
+    &.graybanner{
+        .section {
+            background-color: #F6F6F6;
+            color: #c7b9b9;
+        }
+
+        img {
+            filter: invert(0.7);
+        }
+    }
+}
+
+#comic-detail {
+    h4 {
+        color: darkblue;
+    }
+
+    .container {
+        max-width: 992px;
+    }
 }
